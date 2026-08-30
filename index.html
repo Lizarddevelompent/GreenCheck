@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>GreenCheck</title>
+
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+>
+
+<link rel="stylesheet" href="style.css">
+
+</head><body><div class="content">
+
+    <h1>🌿 GreenCheck</h1>
+
+    <p>Let's see how green your surroundings are.</p>
+
+    <div id="xpContainer">
+        <div id="levelText">Level 1</div>
+
+        <div id="xpBar">
+            <div id="xpFill"></div>
+        </div>
+
+        <div id="xpText">0 / 100 XP</div>
+    </div>
+
+    <button id="randomizeButton">
+        Randomize 🌿🎲
+    </button>
+
+    <div class="challengeBox">
+        <p id="result">Your challenge will appear here...</p>
+    </div>
+
+    <div id="map"></div>
+
+</div>
+
+<script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
